@@ -1,0 +1,134 @@
+body {
+    box-sizing: content-box;
+    text-align: center;
+  }
+.customNavbar{
+    background-color: #2A2A2A;
+    min-height: 60vh;
+    max-height: 60vh;
+}
+.navbarSection{
+    cursor: pointer;
+}
+.bigSize{
+    margin: auto;
+    max-width: 90%;
+    min-width: 90%;
+}
+.smallSize{
+    display: none;
+}
+.textOnPic{
+    position: absolute;
+    bottom: 40%;
+    text-align: right;
+    left: 0%;
+    padding-right: 5rem;
+}
+.smallText{
+    font-size: 15px;
+    line-height: 0rem;
+}
+.picText{
+    font-size: 18px;
+}
+.picHeader{
+    
+}
+.jambotPic{
+    background-image: url("./2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    margin: auto;
+    background-position: center;
+    height: 60vh;
+    border-radius: 5px;
+}
+.startedBtn{
+    background-color:#282828;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+.cards{
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    max-height: 40vh;
+}
+.cardsContainer{
+    width:83%;
+}
+
+
+@media only screen and (max-width:1090px) {
+    .cardsContainer{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:785px) {
+    .cards{
+        background-color: #FFFFFF;
+        width: 100%;
+        border-radius: 5px;
+        min-height: 47vh;
+        max-height: 47vh;
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width:767.5px) {
+    .cards{
+        background-color: #FFFFFF;
+        width: 100%;
+        border-radius: 5px;
+        min-height: 40vh;
+        max-height: 40vh;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width:730px) {
+    .textOnPic{
+        position: absolute;
+        bottom: 40%;
+        text-align: right;
+        left: 0%;
+        padding-right: 2rem;
+    }
+}
+@media only screen and (max-width:500px) {
+    .picText{
+        font-size: 15px;
+    }
+    .picHeader{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:490px) {
+    .bigSize{
+        display: none;
+    }
+    .smallSize{
+        display: flex;
+        min-width: 90%;
+        max-width: 90%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:420px) {
+    .picText{
+        font-size: 13px;
+    }
+    .picHeader{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:361px) {
+    .picText{
+        font-size: 12px;
+    }
+    .picHeader{
+        font-size: 27px;
+    }
+}
